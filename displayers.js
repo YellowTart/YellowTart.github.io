@@ -4,7 +4,7 @@ function displayTart(image, name, description, price) {
   tart.classList.add("background");
   tart.classList.add("product");
   let tartHTML = `
-    <img class="product-image" src="images/tarts/${image}.jpeg">
+    <img class="product-image" src="../images/tarts/${image}.jpeg">
     <div class="product-text">
       <p class="bold">${name}</p>
       <p>${description}</p>
