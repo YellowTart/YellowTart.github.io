@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <link rel="icon" type="image/x-icon" href="icon.ico">
   <title>
-    Beta - Yellowtart
+    Catergories - [___] - Yellowtart
   </title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
 
@@ -19,7 +19,7 @@
     <center>
     <button class="logo">YellowTart
    </button>
-    <p class="bold">Our delicious tarts</p>
+    <p class="bold">Our [___] tarts</p>
     </center>
     <div id="products">
     </div>
@@ -27,7 +27,9 @@
   <script src="list-getter.js"></script>
   <script src="displayers.js"></script>
   <script src="cart-manager.js"></script>
-  <script type="module" src="script.js"></script>
+  <script type="module">
+    await displayProducts("test.json", "t");
+  </script>
 </body>
 
 </html>

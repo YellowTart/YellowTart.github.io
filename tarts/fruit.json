@@ -18,27 +18,9 @@
     "price": "3.99"
   },
   {
-    "image": "pumpkin",
-    "name": "Pumpkin & Almond tart",
-    "description": "Hot sweet,Yummy pumpkin in a tart. A spoon of crème and perfect",
-    "price": "3.99"
-  },
-  {
     "image": "citrus",
     "name": "Citrus tart",
     "description": "Sweet,creamy,and sour.Citrus tart is a great choice for a sweet treat",
-    "price": "3.99"
-  },
-  {
-    "image": "doggy",
-    "name": "Doggy tart",
-    "description": "Heads up little doggies!",
-    "price": "5.99"
-  },
-  {
-    "name": "Choco tart",
-    "description": "Its pure chocolate.",
-    "image": "choco",
     "price": "3.99"
   },
   {

@@ -2,7 +2,7 @@ html {
   height: 100%;
   width: 100vw;
   background-color: #ffda1f;
-  background-image: url("./images/background.jpeg");
+  background-image: url("images/background.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -27,7 +27,7 @@ html {
   margin: 1em;
 }
 
-.tart-image {
+.product-image {
   width: calc(100% - 2em);
   padding: 1em;
 }
@@ -55,13 +55,18 @@ p {
   margin: 0.5em;
 }
 
-.tart {
+.product {
   width: calc(33% - 2em);
   display: inline-table;
 }
 
+.product a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media only screen and (max-width: 600px) {
-  .tart {
+  .product {
     width: calc(100% - 2em);
   }
 }
