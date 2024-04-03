@@ -1,1 +1,1 @@
-await displayProducts("catergories.json", "c");
+await displayProducts("categories.json", "c");

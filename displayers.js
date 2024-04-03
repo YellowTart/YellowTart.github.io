@@ -15,13 +15,13 @@ function displayTart(image, name, description, price) {
   document.getElementById("products").appendChild(tart);
 }
 
-function displayCatergory(image, name, description, url) {
+function displayCategory(image, name, description, url) {
   let cat = document.createElement("center");
   cat.classList.add("background");
   cat.classList.add("product");
   let catHTML = `
-  <a href="/catergories/${url}.html">
-    <img class="product-image" src="images/catergories/${image}.jpeg">
+  <a href="/categories/${url}.html">
+    <img class="product-image" src="images/categories/${image}.jpeg">
     <div class="product-text">
       <p class="bold">${name}</p>
       <p>${description}</p>
@@ -47,7 +47,7 @@ async function displayProducts(src, type) {
   } else if (type == "c") {
     products.forEach(
       (category) => {
-        displayCatergory(
+        displayCategory(
           category.image,
           category.name,
           category.description,
