@@ -70,3 +70,8 @@ p {
         width: calc(100% - 2em);
     }
 }
+
+.quote {
+  font-size: 1.5em;
+  font-style: italic;
+}
